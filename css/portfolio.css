@@ -12,12 +12,42 @@
     color: coral;
 }
 
+.dark-1{
+    color: #474747;
+}
+
+.btn-primary{
+    background-color: darkorange;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 8px;
+}
+
 /* Nav style */
 nav {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
 }
 
 .nave_taitle{
     font-weight: 800px;
     font-size: 45px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav ul li a {
+    text-decoration: none;
 }
