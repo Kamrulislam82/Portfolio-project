@@ -25,6 +25,13 @@
     border-radius: 8px;
 }
 
+/* Hedder */
+header{
+    background-image: url(../Images/photo/developer.png), url(../Images/photo/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
 /* Nav style */
 nav {
     display: flex;
@@ -51,3 +58,30 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
 }
+
+/* Banner Style */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+
+.banner_content{
+    max-width: 580px;
+}
+
+.banner_greetings{
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner_titel{
+    font-weight: bold;
+    font-size: 85px;
+}
+.banner_profile{
+    width: 580px;
+}
+
+
