@@ -141,3 +141,22 @@ main section{
     padding: 30px;
     box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.6);
 }
+
+/* Resume Section style */
+
+.resume_container{
+    display: flex;
+    gap: 24px;
+}
+.experience_sub_title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.experience_description, .experience_sub_title{
+    color: #757575;
+}
+
+.resume hr{
+    margin: 30px 5px;
+}
