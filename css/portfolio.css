@@ -160,3 +160,7 @@ main section{
 .resume hr{
     margin: 30px 5px;
 }
+
+.resume_download_cv{
+    margin-top: 20px;
+}
