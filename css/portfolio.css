@@ -108,5 +108,16 @@ main{
 /* About Style */
 .about{
     border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
 
+.about_items{
+    display: flex;
+    justify-content: space-around;
+}
+
+.item_description{
+    font-weight: 600;
 }
